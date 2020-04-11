@@ -39,16 +39,16 @@ packages:
   bloc_codegen:
     dependency: "direct main"
     description:
-      path: "../bloc_codegen"
-      relative: true
-    source: path
+      name: bloc_codegen
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.0.1"
   bloc_codegen_generator:
     dependency: "direct dev"
     description:
-      path: "../bloc_codegen_generator"
-      relative: true
-    source: path
+      name: bloc_codegen_generator
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.0.1"
   boolean_selector:
     dependency: transitive

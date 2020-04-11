@@ -1,7 +1,7 @@
 builders:
   bloc_codegen:
     target: ':bloc_codegen'
-    import: 'package:bloc_codegen_generator/builder.dart'
+    import: 'package:bloc_codegen_generator/bloc_codegen_generator.dart'
     builder_factories: ["blocCodegen"]
     build_extensions: {".dart": ["bloc.g.part"]}
     auto_apply: dependents

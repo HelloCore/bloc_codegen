@@ -6,6 +6,7 @@ part 'hello_bloc.g.dart';
 @Bloc()
 class HelloBloc {
 
+
   @BlocInput()
   @BlocOutput()
   final BehaviorSubject<int> _counter = BehaviorSubject.seeded(0);
