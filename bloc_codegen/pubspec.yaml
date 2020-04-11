@@ -1,0 +1,13 @@
+name: bloc_codegen
+description: A new Flutter package project.
+version: 0.0.1
+author: HelloCore(aukwat@gmail.com)
+homepage: https://github.com/HelloCore/bloc_codegen
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  meta: ^1.1.6
+
+dev_dependencies:
